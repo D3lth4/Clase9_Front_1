@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    background: #00669F;
+    font-weight: 200;
+    font-size: 40px;
+    position: sticky;
+    position: fixed;
+    padding: 28px;
+    top: 39px;
+    width: 100%;
+}
+.descuentos {
+    background: #1CD1B0;
+    padding: 10px;
+}
+
+main{
+    padding: 294px 32px;
+}
+.imagen_de_fondo {
+    background-image: url('../img/fondo_batman.png');
+    width:300px;
+    height:193px;
+}
+.heroe {
+    display: inline-block;
+    position: relative;
+}
+.listado_heroes {
+    display: flex;
+    justify-content: space-between;
+}
+.personaje {
+    position: relative;
+    top: 128px;
+    left: 90px;
+    border-radius: 60px;
+}
+.corazon {
+    position: absolute;
+    top: 15px;
+    left: 21px;
+}
+.texto {
+    background-color: #F3F3F3;
+    padding: 74px 17px 18px;
+    width: 300px;
+    height: 336px;
+    display: inline-block;
+}
+.texto h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.ver_mas {
+    margin: 30px 86px;
+    padding: 15px  17px;
+    display: inline-block;
+    background-color: #00669F;
+    text-decoration: none;
+    color: white;
+    margin-top: ;
+}
+footer{
+    color: white;
+    background: #00669F;
+    padding: 16px;
+}
